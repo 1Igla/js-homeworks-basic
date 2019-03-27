@@ -5,19 +5,14 @@ var priceProduct;
 
 nameProduct = '«Телепорт бытовой VZHIH-101»';
 priceProduct = '10000';
-console.log();
-
 console.log(`В наличии имеется: ${nameProduct}`);
 console.log(`Стоимость товара, ${priceProduct}, Q`);
-console.log();
 
 var quantityProduct = 2;
 var discountPercentage = 0.1;
 
-
 var paymentSumm = priceProduct * quantityProduct - priceProduct * quantityProduct * discountPercentage;
 console.log(`Цена покупки составит ${paymentSumm} Q`);
-console.log();
 
 var totalBudget = 52334224;
 var purchasePrice = 6500;
